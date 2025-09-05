@@ -15,3 +15,15 @@ variable "repo_name" {
  description = "Unique identifier for a each student session and workspace"
  default     = "txclab-llac"
 } 
+
+variable "hostname" {
+      type = string
+}
+
+variable "username" {
+      type = string
+}
+
+variable "password" {
+      type = string
+}
